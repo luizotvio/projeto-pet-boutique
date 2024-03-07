@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --background-color: #3c184e;
+    --text-color: #fff;
+    --shadow-color: #1f26875e;
+    --back-image: #0000005c;
+    --opacity-color: #ffffffc4;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100vw;
+    margin: 0 auto;
+}
+main h3 {
+    font-size: 36px;
+    color: var(--background-color);
+    margin: 0 0 45px;
+}
+
+header {
+    width: 100%;
+    background-image: url('../img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 120px 80px;
+}
+
+.banner {
+    max-width: 250px;
+    color: var(--background-color)
+}
+
+.banner img {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.prinipal {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+ .segundo{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.container-topo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: var(--opacity-color);
+    box-shadow: 0 8px 32px 0 var(--shadow-color);
+}
+
+.container-topo h1 {
+    font-size: 60px;
+    color: var(--background-color);
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+}
+
+.container-topo p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--background-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-topo a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.container-topo img {
+    width: 20px;
+}
+.container {
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.list {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: var(--background-color);
+    text-align: justify;
+}
+
+.list ul {
+    list-style: square;
+    
+}
+
+.list li {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.list span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px var(--back-image);
+}
+
+.faixa {
+    width: 100vw;
+    background-color: var(--background-color);
+}
+
+.faixa p {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 40px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.faixa span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.faixa img {
+    width: 50px;
+    height: 50px;
+}
+
+.faixa a {
+    margin: 0 20px 0
+}
+
+.marcas div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+.encontre p {
+    font-size: 20px;
+    color: var(--background-color);
+    margin: 0 0 45px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 5PX;
+    border-radius: 5PX;
+}
+
+footer a:hover {
+    background-color: var(--opacity-color);
+    color: var(--background-color);
+}
